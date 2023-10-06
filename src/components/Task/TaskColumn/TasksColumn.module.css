@@ -1,0 +1,8 @@
+.task_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--container-page-bacground);
+  border-radius: 8px;
+
+}

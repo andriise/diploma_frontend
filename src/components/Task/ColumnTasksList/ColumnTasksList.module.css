@@ -1,0 +1,40 @@
+@media (max-width: 767px) {
+  .column_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task_list {
+    padding-left: 18px;
+    padding-right: 18px;
+    max-height: 430px;
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: 767px) {
+  .column_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task_list {
+    padding-left: 18px;
+    padding-right: 18px;
+    max-height: 560px;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1440px) {
+  .column_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task_list {
+    padding-left: 18px;
+    padding-right: 18px;
+    max-height: 520px;
+    overflow-y: auto;
+  }
+}

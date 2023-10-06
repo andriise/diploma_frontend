@@ -1,0 +1,130 @@
+:root {
+  /* fonts */
+  --secondary-font: 'Coolvetica', sans-serif;
+  --button-font: 'Inter', sans-serif;
+
+  /* background colors */
+
+  --primary-background-color: #f7f6f9;
+  --secondary-background-color: #f7f6f9;
+
+  --sidebar-background-color: #ffffff;
+
+  --task-item-background-color: #f0f0f0;
+
+  --tooltip-color: #f7f6f982;
+
+  --container-page-bacground:#FFFFFF;
+
+  --modal-bg-color: #ffffff;
+
+  --day-backgraund-color:#ebebeb82;
+
+  /* text colors */
+  --primary-text-color: #111111;
+  --secondary-text-color: #343434;
+
+  /* icon month-day */
+  --toggle-button-color: #dcebf7;
+  --toggle-button-color-active: #cae8ff;
+
+  /* Nav colors */
+
+  --nav-button-color: rgba(52, 52, 52, 0.5);
+  --nav-button-color-hover: #3e85f3;
+  --nav-button-background-hover: #e3f3ff;
+
+  --button-color-hover: #2b78ef;
+
+  /* Feedback modal */
+
+  --feedback-background-input: #f6f6f6;
+  --feedback-btnCancel-background: #dcebf7;
+  --feedback-editBtn-background: #e3f3ff;
+  --feedback-cancelMini-background: #facedd;
+  --feedback-border-color: rgba(255, 255, 255, 0);
+
+  /* calendar */
+  --calendar-digit-color: #343434;
+  --priority-low-bg-color: #ceeefd;
+  --priority-medium-bg-color: #fcf0d4;
+  --priority-high-bg-color: #ffd2dd;
+  --active-button-period-type: #cae8ff;
+  --button-period-type: #e3f3ff;
+  --hover-button-period-type: rgba(202, 232, 255, 0.7);
+
+  --color-button-period-type: #3e85f3;
+  --close-btn-color: #111111;
+  --modal-border-color: rgba(220, 227, 229, 0.8);
+  --modal-shadow-color: rgba(17, 17, 17, 0.4);
+
+  /* animation */
+  --animation-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* task colors */
+
+  --high-color: #ea3d65;
+  --medium-color: #f3b249;
+  --low-color: #72c2f8;
+
+  /* login and logout */
+  --log-background-color: #FFFFFF;
+  --log-title-color:#3e85f3;
+  --log-text-color: #111111;
+  --log-btn-color:#3e85f3;
+  --log-btn-hover: #2b78ef;
+
+  /*button-shadow */
+  --shadow-btn: rgba(212, 212, 212, 0.48);
+
+}
+
+[data-theme='dark'] {
+  /* background colors */
+  --secondary-background-color: #171820;
+  --primary-background-color: #171820;
+  --primary-text-color: #ffffff;
+  --sidebar-background-color: #13151a;
+  --tooltip-color: #1718207c;
+--container-page-bacground: #21222C;
+--day-backgraund-color: #13151a;
+
+--modal-bg-color: #171820;
+  /* text colors */
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #ffffff;
+
+  /* icon month-day */
+  --toggle-button-color: #ffffff;
+  --toggle-button-color-active: #21222c;
+
+  /* Nav colors */
+  --nav-button-color: #ffffff;
+  --nav-button-color-hover: #ffffff;
+  --nav-button-background-hover: #3e85f3;
+
+  /* Feedback modal */
+  --feedback-background-input: #13151a;
+  --feedback-btnCancel-background: #21222c;
+  --feedback-editBtn-background: #353647;
+  --feedback-cancelMini-background: #c08297;
+  --feedback-border-color: rgba(255, 255, 255, 0.15);
+
+    /* login and logout */
+      --log-title-color: #3e85f3;
+      --log-text-color: #111111;
+      --log-btn-color: #3e85f3;
+     --log-btn-hover: #2b78ef;
+
+  /* calendar */
+  --close-btn-color: #ffffff;
+  --modal-border-color: #21222c;
+  --modal-shadow-color: rgba(62, 133, 243, 0.4);
+  --active-button-period-type: #3e85f3;
+  --hover-button-period-type: rgba(33, 34, 44, 0.6);
+  --button-period-type: #21222c;
+  --color-button-period-type: #3e85f3;
+  
+    /*button-shadow */
+      --shadow-btn: rgba(10, 10, 10, 0.48);
+}

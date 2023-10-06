@@ -1,0 +1,99 @@
+.weeks_item {
+  display: flex;
+  height: 68px;
+  padding: 10px 0;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(18 / 16);
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  background: var(--container-page-bacground);
+  border-radius: 8px;
+  color: var(--calendar-digit-color);
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.week_item_day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 26px;
+  padding: 3px;
+  color: var(--primary-text-color);
+  background: var(--container-page-bacground);
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(18 / 16);
+}
+
+.current_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 26px;
+  padding: 5px;
+  background: var(--button-color-hover);
+  border-radius: 6px;
+  color: #ffff;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(18 / 16);
+}
+
+.grid_weeks_container {
+  border-radius: 8px;
+  background: var(--container-page-bacground);
+  border: 1px solid rgba(220, 227, 229, 0.5);
+  margin: 24px 0 32px;
+  text-align: center;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.weeks_item_name {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: calc(18 / 14);
+  color:var(--primary-text-color) ;
+}
+
+.selected_day {
+  display: inline-block;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: var(--sidebar-background-color);
+  background-color: var(--button-color-hovera);
+}
+
+.not_selected_day {
+  display: inline-block;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background: var(--container-page-bacground);
+}
+
+.not_selected_day > .week_item_day:hover,
+.not_selected_day > .week_item_day:hover {
+    background: var(--container-page-bacground);
+    background-color:  var(--container-page-bacground);
+  
+}
+
