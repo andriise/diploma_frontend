@@ -26,7 +26,6 @@
 
 @media (min-width: 1439px) {
   .register_page {
-    background-image: url(../../images/register_page/elements_1.png);
     background-repeat: no-repeat;
     background-position: 50px 100%;
   }

@@ -1,4 +1,4 @@
-import Goose from '../../../images/Goose.png';
+import Goose from '../../../images/khpi_logo.png';
 import { FiLogIn } from 'react-icons/fi';
 import { ButtonNavigation } from '../../AuthNavigate/AuthNavigate';
 import css from './AuthSection.module.css';
@@ -13,9 +13,7 @@ export const AuthSection = () => {
         width="142px"
         height="142px"
       />
-      <div className={css.heroTitle}>
-        G<i>oo</i>seTrack
-      </div>
+
       <div className={css.nav}>
         <ButtonNavigation
           className={css.btnLogin}
@@ -27,7 +25,7 @@ export const AuthSection = () => {
         <ButtonNavigation
           className={css.link}
           route="/register"
-          btnText="Sing up"
+          btnText="Sign up"
         />
       </div>
     </section>

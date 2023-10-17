@@ -11,11 +11,13 @@
   width: 142px;
   height: 142px;
   margin-top: 232px;
+  margin-bottom: 40px;
 
   @media screen and (min-width: 768px) {
     width: 150px;
     height: 149px;
     margin-top: 0px;
+    margin-bottom: 40px;
   }
 }
 
@@ -65,11 +67,12 @@
   background: #ffffff;
   border: none;
   border-radius: 16px;
-    &:hover,
-    &:focus {
-      box-shadow: 4px 2px 16px rgba(82, 94, 104, 0.48);
-    }
-   
+
+  &:hover,
+  &:focus {
+    box-shadow: 4px 2px 16px rgba(82, 94, 104, 0.48);
+  }
+
 }
 
 .link {
@@ -77,6 +80,7 @@
   font-size: 14px;
   text-decoration: underline;
   cursor: pointer;
+
   &:hover,
   &:focus {
     color: #cdddf5;

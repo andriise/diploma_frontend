@@ -8,9 +8,9 @@ export const MainPage = () => {
   return (
     <>
       <AuthSection />
-      <Description />
+      {/* <Description />
       <ReviewsSlider />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
