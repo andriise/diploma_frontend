@@ -1,5 +1,5 @@
 import { useLocation, useParams } from 'react-router-dom';
-import Logo from '../../images/sideBar/Goose_logo_SideBar@2x.png';
+import Logo from '../../images/khpi_logo.png';
 import cssLogo from '../SideBar/sideBar.module.css';
 import css from './header.module.css';
 import React, { useEffect, useState } from 'react';
@@ -76,7 +76,7 @@ const isUserInfoPage = location.pathname === '/userInfo';
       <div className={css.logoConteiner}>
         <div className={css.logoBox}>
           <img className={cssLogo.logoImg} src={Logo} alt="Goose_logo" />
-          <p className={cssLogo.logoTitle}>GooseTrack</p>
+
         </div>
       </div>
 

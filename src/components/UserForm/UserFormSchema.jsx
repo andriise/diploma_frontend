@@ -15,5 +15,7 @@ export const UserFormSchema = Yup.object().shape({
     .min(8, 'Too short')
     .matches(phonePattern, 'Invalid phone number format'),
   skype: Yup.string().max(16, 'Too long'),
+  workingHours: Yup.number()
+    .max(40, 'Too much hours')
+    .required('This field is required'),
 });
-

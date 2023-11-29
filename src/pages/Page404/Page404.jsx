@@ -19,7 +19,7 @@ export const Page404 = () => {
   return (
     <div className={css.container}>
       <h1 className={css.title}>
-        4 <img src={image404} alt="404" /> 4
+        4 0 4
       </h1>
       <p className={css.message}>
        We’re sorry, the page you requested could not be found. Please go back to the homepage. 

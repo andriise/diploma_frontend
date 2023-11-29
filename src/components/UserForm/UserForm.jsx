@@ -32,6 +32,7 @@ export const UserForm = ({ theme = '' }) => {
     name: userInfo ? userInfo.name : '',
     email: userInfo ? userInfo.email : '',
     birthday: userInfo ? moment(userInfo).format('YYYY-MM-DD') : '1999-12-31',
+    workingHours: userInfo ? userInfo.workingHours : '',
   };
 
   const updateDate = changeDate => {
@@ -52,7 +53,7 @@ export const UserForm = ({ theme = '' }) => {
     }
     if (userData) {
       formData.append('birthday', `${userData}`);
-      setPreviewImageUrl(null)
+      setPreviewImageUrl(null);
     }
 
     dispatch(updateUser(formData));
@@ -85,27 +86,31 @@ export const UserForm = ({ theme = '' }) => {
             <Form>
               <div className={`${css.user_page__avatar_container} ${theme}`}>
                 <div className={`${css.avatar_upload_container} ${theme}`}>
-                    <Field
-                      id="avatar-upload"
-                      name="avatar"
-                      type="file"
-                      accept="image/*"
-                      onChange={e =>
-                        handleAvatarChange(e, formik.setFieldValue)
-                      }
-                      style={{ display: 'none' }}
-                    />
-                    <label
-                      htmlFor="avatar-upload"
-                      className={`${css.avatar_upload_btn} `}
-                    ></label>
-                  </div>
+                  <Field
+                    id="avatar-upload"
+                    name="avatar"
+                    type="file"
+                    accept="image/*"
+                    onChange={e => handleAvatarChange(e, formik.setFieldValue)}
+                    style={{ display: 'none' }}
+                  />
+                  <label
+                    htmlFor="avatar-upload"
+                    className={`${css.avatar_upload_btn} `}
+                  ></label>
+                </div>
                 <div className={css.user_page__avatar_box}>
                   {!imgURL && !previewImageUrl ? (
                     <p className={css.avatarWord}>{userInfo ? avatar : ''}</p>
                   ) : (
                     <img
-                      src={previewImageUrl ? previewImageUrl : imgURL || imgURL ? imgURL : previewImageUrl}
+                      src={
+                        previewImageUrl
+                          ? previewImageUrl
+                          : imgURL || imgURL
+                          ? imgURL
+                          : previewImageUrl
+                      }
                       alt="User avatar"
                       className={css.user_page__avatar}
                     />
@@ -177,7 +182,6 @@ export const UserForm = ({ theme = '' }) => {
                     className={css.invalid_feedback}
                   />
                 </label>
-                
 
                 <label
                   htmlFor="skype"
@@ -197,14 +201,30 @@ export const UserForm = ({ theme = '' }) => {
                     className={css.invalid_feedback}
                   />
                 </label>
-                
+
                 <label
                   htmlFor="email"
                   className={`${css.username_form__label} ${theme}`}
                 >
-                  Email 
+                  Email
                   <Field
                     name="email"
+                    type="email"
+                    className={`${css.username_form_input} ${theme}`}
+                  />
+                  <ErrorMessage
+                    name="email"
+                    component="div"
+                    className={css.invalid_feedback}
+                  />
+                </label>
+                <label
+                  htmlFor="email"
+                  className={`${css.username_form__label} ${theme}`}
+                >
+                  Working hours
+                  <Field
+                    name="workingHours"
                     type="email"
                     className={`${css.username_form_input} ${theme}`}
                   />
