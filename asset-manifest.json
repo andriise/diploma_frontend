@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/diploma_frontend/static/css/main.d978fe2f.css",
-    "main.js": "/diploma_frontend/static/js/main.24e2d1ff.js",
+    "main.css": "/diploma_frontend/static/css/main.24810c62.css",
+    "main.js": "/diploma_frontend/static/js/main.0679f330.js",
     "static/media/tablet_calendar@2x.png": "/diploma_frontend/static/media/tablet_calendar@2x.844cff810c188f6f25a7.png",
     "static/media/desktop_calendar@2x.png": "/diploma_frontend/static/media/desktop_calendar@2x.511158f67c65ff6302fb.png",
     "static/media/Inter-Bold.eot": "/diploma_frontend/static/media/Inter-Bold.7e9fff4114e0ea385c94.eot",
@@ -42,7 +42,6 @@
     "static/media/mobile_sidebar.png": "/diploma_frontend/static/media/mobile_sidebar.5aa8c0531489cc7813e5.png",
     "static/media/CoolveticaRg-Regular.woff": "/diploma_frontend/static/media/CoolveticaRg-Regular.d7bc4174b8f5b1d10a2d.woff",
     "static/media/Музыка_Андрей.jpg": "/diploma_frontend/static/media/Музыка_Андрей.99d09f636a48c9dba63f.jpg",
-    "static/media/elements.png": "/diploma_frontend/static/media/elements.e7e929f2404e1cb175d0.png",
     "static/media/CoolveticaRg-Italic.woff2": "/diploma_frontend/static/media/CoolveticaRg-Italic.354b20eb1b8d25af62a1.woff2",
     "static/media/Дубей_Анатолій.jpg": "/diploma_frontend/static/media/Дубей_Анатолій.192f479c20fe4ca39af7.jpg",
     "static/media/CoolveticaRg-Regular.woff2": "/diploma_frontend/static/media/CoolveticaRg-Regular.3829e81cd606bef6e1e9.woff2",
@@ -56,7 +55,6 @@
     "static/media/Павло_Зюськин.jpg": "/diploma_frontend/static/media/Павло_Зюськин.8f142c2a97541630635e.jpg",
     "static/media/Фролова_Валерія.jpg": "/diploma_frontend/static/media/Фролова_Валерія.1097f0df90a27b7122dd.jpg",
     "static/media/Мельниченко_Лариса.jpg": "/diploma_frontend/static/media/Мельниченко_Лариса.24f162b1e6501f865e76.jpg",
-    "static/media/Goose_logo_SideBar@2x.png": "/diploma_frontend/static/media/Goose_logo_SideBar@2x.3c0470b19aa18aaef0d8.png",
     "static/media/Станков_Максим.jpg": "/diploma_frontend/static/media/Станков_Максим.830ec60b704c9051b7bc.jpg",
     "static/media/Жовновський_Дмитро.jpg": "/diploma_frontend/static/media/Жовновський_Дмитро.7c24fded77cb5a45266b.jpg",
     "static/media/Антон_Логвиненко.jpg": "/diploma_frontend/static/media/Антон_Логвиненко.51643e11fe9cdabf332b.jpg",
@@ -67,11 +65,11 @@
     "index.html": "/diploma_frontend/index.html",
     "static/media/plus.svg": "/diploma_frontend/static/media/plus.f0087676f0974ccbb001.svg",
     "static/media/x-close.svg": "/diploma_frontend/static/media/x-close.cffc8a086992ad16f1f0db83c5a8a66f.svg",
-    "main.d978fe2f.css.map": "/diploma_frontend/static/css/main.d978fe2f.css.map",
-    "main.24e2d1ff.js.map": "/diploma_frontend/static/js/main.24e2d1ff.js.map"
+    "main.24810c62.css.map": "/diploma_frontend/static/css/main.24810c62.css.map",
+    "main.0679f330.js.map": "/diploma_frontend/static/js/main.0679f330.js.map"
   },
   "entrypoints": [
-    "static/css/main.d978fe2f.css",
-    "static/js/main.24e2d1ff.js"
+    "static/css/main.24810c62.css",
+    "static/js/main.0679f330.js"
   ]
 }
